@@ -1,4 +1,6 @@
 .idea
 __pycache__/
-config.py
+config.py/Token
+config.py/my_id
+config.py/config_for_db
 client_secrets.json
