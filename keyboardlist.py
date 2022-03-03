@@ -1,0 +1,20 @@
+import telebot
+
+
+keyboard1 = telebot.types.ReplyKeyboardMarkup(True, one_time_keyboard=True)
+keyboard1.row('Подобрать', 'Добавить')
+keyboard2 = telebot.types.ReplyKeyboardMarkup(True)
+keyboard2.row('Cлучайный', 'По году', 'В начало')
+keyboard2.row('По режиссеру', 'По жанру')
+keyboard3 = telebot.types.ReplyKeyboardMarkup(True)
+keyboard3.row('Ещё', 'Назад')
+keyboard4 = telebot.types.ReplyKeyboardMarkup(True)
+keyboard4.row('Назад')
+keyboard5 = telebot.types.ReplyKeyboardMarkup(resize_keyboard=True)
+keyboard5.row('Драма', 'Комедия', 'Ужасы', 'Триллер')
+keyboard5.row('Вестерн', 'Боевик', 'Фантастика', 'Назад')
+keyboard6 = telebot.types.ReplyKeyboardMarkup(True)
+keyboard6.row('Годится!', 'Ссылка на фото')
+keyboard7 = telebot.types.ReplyKeyboardMarkup(True)
+keyboard7.row('Годится!')
+keyboard7.row('Ссылка на фото')

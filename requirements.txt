@@ -1,0 +1,8 @@
+mysql-connector-python~=8.0.26
+telebot~=0.0.4
+Flask~=2.0.1
+Pillow~=8.3.2
+google-auth~=2.1.0
+google-auth-httplib2~=0.1.0
+google-api-python-client~=2.21.0
+google-api-core~=2.0.1
